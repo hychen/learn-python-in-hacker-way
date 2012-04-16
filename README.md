@@ -50,12 +50,9 @@
 
 1. `老師`在 github 上 fork 此專案。
 1. `學徒`在 github 上 fork `老師`的專案。
-1. `學徒`依據課程大綱讀完講義上指定的閱讀項目，並且寫完指定的作業
-1. `學徒`把指定的作業commit後，push 進自己的專案，並且在`老師`的專案上開ticket, 抬頭為`作業 XXXX 已寫完，請檢查`
-
-## 評分
-
-會不會自己最清楚，不需要評分。
+1. `學徒`依據課程大綱讀完講義上指定的閱讀項目，並且寫完指定的習題
+1. `學徒`把指定的作業commit後，push 進自己的專案
+1. `老師`Review`學徒的code，引導`學徒`思考寫出更好的code
 
 [1]: http://www.angelfire.com/ok/leekawo/hacker.htm
 [2]: https://code.google.com/p/smartquestions/wiki/WhenYouAsk
