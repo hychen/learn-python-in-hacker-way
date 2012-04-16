@@ -8,8 +8,7 @@
 在這門課除了教你 Python ， 你還會學到一些軟體開發中會用到的工具，
 以及開放源碼/自由軟體社群的工作模式。
 
-嗯! 更正。 我不是教，我只是告訴你，
-這裡有份學習地圖，你就參考看看，自己學吧。
+本教材適合一人自學或是一人教多人使用(一個難度只能教一人)。
 
 *聲明*
 
@@ -24,21 +23,42 @@
 這邊說得 Hacker 指得是"泛指任何一類事務或領域中的專家或狂熱份子。"
 開始前建議閱讀下面這兩篇
 
-- [如何成為駭客](http://www.angelfire.com/ok/leekawo/hacker.htm)
-- [提問的智慧](https://code.google.com/p/smartquestions/wiki/WhenYouAsk)
+- [如何成為駭客][1]
+- [提問的智慧][2]
 
-## 課程
+## 如何使用本教材
 
-### 新手(Novice)
+你可以照著本教材上頭列的連結自學，也可以找個熟Python的人利用這份教材來指導你。
+後面我將用`學徒`來稱呼想學 Python 的人，`老師` 來稱呼指導學生的人。
 
-### 學徒(Apprentice)
+`學徒`將會需要使用Git來取得最新的內容, 還有繳交指定作業給老師做Code Review。
+如果`學徒`或`老師`不曾用過Git，請先閱讀 [ihower][3] 的[Git and Github 演講投影片][4]。
 
-### 老手（Adept）
+課程講義依難度分為
 
-### 專家 (Expert)
+- 新手(Novice):
+	熟悉基本資料結構以及迴圈，內容在`courses/novice/README.md`
+- 學徒(Apprentice):
+	能使用Function, Class 來維護較大型的程式, 一些常用的函式庫，以及撰寫測試程式，內容在`courses/apprentice/README.md` (尚未完成)
+- 老手(Adept):
+	使用Decorator, Generator, Meta Class 來加速開發速度，熟悉特定領域的函式庫使用，例如做GUI的人會熟悉PyGTK, PyQT。
+	內容在`courses/adept/README.md` (尚未完成)
+- 專家(Expert): 無法提供，因為我不是
+- 大師(Master): 無法提供，因為我不是
 
-無法提供，因為我不是。
+## 開始
 
-### 大師 (Master)
+1. `老師`在 github 上 fork 此專案。
+1. `學徒`在 github 上 fork `老師`的專案。
+1. `學徒`依據課程大綱讀完講義上指定的閱讀項目，並且寫完指定的作業
+1. `學徒`把指定的作業commit後，push 進自己的專案，並且在`老師`的專案上開ticket, 抬頭為`作業 XXXX 已寫完，請檢查`
 
-無法提供，因為我不是。
+## 評分
+
+會不會自己最清楚，不需要評分。
+
+[1]: http://www.angelfire.com/ok/leekawo/hacker.htm
+[2]: https://code.google.com/p/smartquestions/wiki/WhenYouAsk
+[3]: http://ihower.tw/blog/about
+[4]: http://ihower.tw/blog/archives/5391
+[5]: http://help.github.com/send-pull-requests/
