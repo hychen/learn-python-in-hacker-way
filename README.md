@@ -26,6 +26,10 @@
 - [如何成為駭客][1]
 - [提問的智慧][2]
 
+下面這個是推薦的[Coding Style][6]，有時間再讀
+
+- [PEP 8 - Coding Style][7]
+
 ## 如何使用本教材
 
 你可以照著本教材上頭列的連結自學，也可以找個熟Python的人利用這份教材來指導你。
@@ -46,6 +50,21 @@
 - 專家(Expert): 無法提供，因為我不是
 - 大師(Master): 無法提供，因為我不是
 
+在學習的過程中，你可以使用`pydoc`來查Python文件，例如我想知道str.replace怎麼用，我就打
+
+```
+$ pydoc str.replace
+```
+
+另一種查文件的方式是在Interpreter中打`help`，像這樣
+
+```
+Python 2.7.2+ (default, Oct  4 2011, 20:03:08)
+	[GCC 4.6.1] on linux2
+	Type "help", "copyright", "credits" or "license" for more information.
+	>>> help(str.replace)
+```
+
 ## 開始
 
 1. `老師`在 github 上 fork 此專案。
@@ -59,3 +78,5 @@
 [3]: http://ihower.tw/blog/about
 [4]: http://ihower.tw/blog/archives/5391
 [5]: http://help.github.com/send-pull-requests/
+[6]: http://mmdays.com/2007/04/24/coding-style/
+[7]: http://www.python.org/dev/peps/pep-0008/
