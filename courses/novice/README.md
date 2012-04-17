@@ -41,11 +41,11 @@ Python 的語法特性，大致上可以讓你"我手寫我口"。
 
 #### 請閱讀
 
-1. [Victor Python 介紹][http://python.ez2learn.com/intro.html]
-1. [Python 2.7 Tutorial - Using Interpreter][http://docs.python.org/tutorial/interpreter.html]
+1. [Victor Python 介紹](http://python.ez2learn.com/intro.html)
+1. [Python 2.7 Tutorial - Using Interpreter](http://docs.python.org/tutorial/interpreter.html)
 1. [Victor Python 入門][1] 裡面的*註解*，*變數*，*輸入與輸出*，*字串*
-1. [Python 2.7 Tutorial - Strings][http://docs.python.org/tutorial/introduction.html#strings]
-1. [Victor - 瞭解Unicode][http://python.ez2learn.com/basic/unicode.html]
+1. [Python 2.7 Tutorial - Strings](http://docs.python.org/tutorial/introduction.html#strings)
+1. [Victor - 瞭解Unicode](http://python.ez2learn.com/basic/unicode.html)
 
 #### 完成作業
 
@@ -53,8 +53,8 @@ Python 的語法特性，大致上可以讓你"我手寫我口"。
 
 #### 選讀
 
-- [PyCon US 2012 - Pragmatic Unicode, or, How do I stop the pain?][http://pyvideo.org/video/948/pragmatic-unicode-or-how-do-i-stop-the-pain]
-- [All About Python and Unicode][http://boodebr.org/main/python/all-about-python-and-unicode]
+- [PyCon US 2012 - Pragmatic Unicode, or, How do I stop the pain?](http://pyvideo.org/video/948/pragmatic-unicode-or-how-do-i-stop-the-pain)
+- [All About Python and Unicode](http://boodebr.org/main/python/all-about-python-and-unicode)
 
 ### 第二週 (8小時)
 
