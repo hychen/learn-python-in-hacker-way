@@ -73,6 +73,11 @@ Python 2.7.2+ (default, Oct  4 2011, 20:03:08)
 1. `學徒`把指定的作業commit後，push 進自己的專案
 1. `老師`Review`學徒的code，引導`學徒`思考寫出更好的code
 
+## 作業繳交方式
+
+每個課程下面都有一個`exercises`的目錄，下面會有各週的作業。 作業的檔名會是`.py`結尾，
+學徒寫完作業後，commit 進自己的專案，並且在`老師`的專案開一個Issue Ticket，通知老師Review 程式碼。
+
 [1]: http://www.angelfire.com/ok/leekawo/hacker.htm
 [2]: https://code.google.com/p/smartquestions/wiki/WhenYouAsk
 [3]: http://ihower.tw/blog/about
