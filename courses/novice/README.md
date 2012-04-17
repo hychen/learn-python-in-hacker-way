@@ -49,7 +49,9 @@ Python 的語法特性，大致上可以讓你"我手寫我口"。
 
 #### 完成作業
 
-*TBD*
+- `courses/novice/exercises/week1/1.py`
+- `courses/novice/exercises/week1/2.py`
+- `courses/novice/exercises/week1/3.py`
 
 #### 選讀
 
