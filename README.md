@@ -38,6 +38,14 @@
 `學徒`將會需要使用Git來取得最新的內容, 還有繳交指定作業給老師做Code Review。
 如果`學徒`或`老師`不曾用過Git，請先閱讀 [ihower][3] 的[Git and Github 演講投影片][4]。
 
+在閱讀上面提及的投影片後，你需要了解怎麼使用下面的git commands:
+
+- git clone
+- git add
+- git commit
+- git pull
+- git push
+
 課程講義依難度分為
 
 - 新手(Novice):
