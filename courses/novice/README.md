@@ -60,6 +60,89 @@ Python 的語法特性，大致上可以讓你"我手寫我口"。
 
 ### 第二週 (8小時)
 
+這一週開始後的作業會採用*測試先行*(Test-Driven)的方式來引導, 那何謂測試先行呢?
+其時就是你先把預期的結果寫出來，再想辦法把程式碼寫出。
+
+最簡單的撰寫test 方式是使用斷言(assertion)，
+等之後介紹過 function 會再介紹到其他更強大的測試工具。
+
+下面是個範例
+
+```
+Python 2.7.2+ (default, Oct  4 2011, 20:03:08)
+[GCC 4.6.1] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> answer = 1
+# assert 測試, 錯誤訊息
+>>> assert answer == 2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AssertionError
+```
+
+需要看懂上面在做什麼你需要讀完下面的 'Boolean Practice'
+
+#### 請閱讀
+
+1. [數值運算](http://ez2learn.com/index.php/python-tutorials/python-tutorials/165-2009-02-11-13-09-18)
+1. [串列](http://ez2learn.com/index.php/python-tutorials/python-tutorials/166-list)
+1. [切片](http://ez2learn.com/index.php/python-tutorials/python-tutorials/167-slice)
+1. [if 判斷句](http://ez2learn.com/index.php/python-tutorials/python-tutorials/171-if)
+1. [Learn Python in Hard Way: Boolean Practice](http://learnpythonthehardway.org/book/ex28.html)
+1. [More conditions](http://docs.python.org/tutorial/datastructures.html#more-on-conditions)
+1. [break and continue Statements, and else Clauses on Loops](http://docs.python.org/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops)
+
+註: python 裡的 True 在比較時會變成數字的1, False 會變成數值0, None 則就是 None, 你可以想一下面的答案是什麼
+
+	- 1 == True
+	- 1 is True
+	- 0 == False
+	- 0 is False
+	- None == True
+	- None is True
+	- None == False
+	- None is False
+
+1. [for 迴圈](http://ez2learn.com/index.php/python-tutorials/python-tutorials/172-for)
+
+note: 在 python 裡的for 指的是foreach, 如果你要真正的for, 可以用下面的方法來類比
+
+	for index in range(0,5):
+		print index
+
+	# 輸出為
+	# 0
+	# 1
+	# 2
+	# 3
+	# 4
+	# 5
+
+range 是一個function, 會產生一個[0,1,2,3,4] 的陣列, 細節請`pydoc range`
+
+而如果你想要取得元素的index, 可以使用`enumerate`,
+
+	mylist = [1,2,3,4,5,6]
+	for index, value in enumerate(mylist):
+		print index, value
+
+	# 下面是結果
+	# 0 1
+	# 1 2
+	# 2 3
+	# 3 4
+	# 4 5
+	# 5 6
+
+1. [while 迴圈](http://ez2learn.com/index.php/python-tutorials/python-tutorials/173-while)
+1. [字典](http://ez2learn.com/index.php/python-tutorials/python-tutorials/168-dictionary)
+1. [Dictionaries](http://docs.python.org/tutorial/datastructures.html#dictionaries)
+1. [Looping Techniques](http://docs.python.org/tutorial/datastructures.html#looping-techniques)
+
+#### 選讀
+
+- [軟體設計必讀經典(11)反覆測試與修正，讓錯誤消失](http://www.ithome.com.tw/itadm/article.php?c=47536)
+
 ### 第三週 (8小時)
 
 ### 第四週 (8小時)
