@@ -41,11 +41,11 @@ Python 的語法特性，大致上可以讓你"我手寫我口"。
 
 #### 請閱讀
 
-1. [Victor Python 介紹](http://python.ez2learn.com/intro.html)
-1. [Python 2.7 Tutorial - Using Interpreter](http://docs.python.org/tutorial/interpreter.html)
-1. [Victor Python 入門][1] 裡面的*註解*，*變數*，*輸入與輸出*，*字串*
-1. [Python 2.7 Tutorial - Strings](http://docs.python.org/tutorial/introduction.html#strings)
-1. [Victor - 瞭解Unicode](http://python.ez2learn.com/basic/unicode.html)
+- [Victor Python 介紹](http://python.ez2learn.com/intro.html)
+- [Python 2.7 Tutorial - Using Interpreter](http://docs.python.org/tutorial/interpreter.html)
+- [Victor Python 入門][1] 裡面的*註解*，*變數*，*輸入與輸出*，*字串*
+- [Python 2.7 Tutorial - Strings](http://docs.python.org/tutorial/introduction.html#strings)
+- [Victor - 瞭解Unicode](http://python.ez2learn.com/basic/unicode.html)
 
 #### 完成作業
 
@@ -84,13 +84,13 @@ AssertionError
 
 #### 請閱讀
 
-1. [數值運算](http://ez2learn.com/index.php/python-tutorials/python-tutorials/165-2009-02-11-13-09-18)
-1. [串列](http://ez2learn.com/index.php/python-tutorials/python-tutorials/166-list)
-1. [切片](http://ez2learn.com/index.php/python-tutorials/python-tutorials/167-slice)
-1. [if 判斷句](http://ez2learn.com/index.php/python-tutorials/python-tutorials/171-if)
-1. [Learn Python in Hard Way: Boolean Practice](http://learnpythonthehardway.org/book/ex28.html)
-1. [More conditions](http://docs.python.org/tutorial/datastructures.html#more-on-conditions)
-1. [break and continue Statements, and else Clauses on Loops](http://docs.python.org/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops)
+- [數值運算](http://ez2learn.com/index.php/python-tutorials/python-tutorials/165-2009-02-11-13-09-18)
+- [串列](http://ez2learn.com/index.php/python-tutorials/python-tutorials/166-list)
+- [切片](http://ez2learn.com/index.php/python-tutorials/python-tutorials/167-slice)
+- [if 判斷句](http://ez2learn.com/index.php/python-tutorials/python-tutorials/171-if)
+- [Learn Python in Hard Way: Boolean Practice](http://learnpythonthehardway.org/book/ex28.html)
+- [More conditions](http://docs.python.org/tutorial/datastructures.html#more-on-conditions)
+- [break and continue Statements, and else Clauses on Loops](http://docs.python.org/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops)
 
 註: python 裡的 True 在比較時會變成數字的1, False 會變成數值0, None 則就是 None, 你可以想一下面的答案是什麼
 
@@ -103,7 +103,27 @@ AssertionError
 	- None == False
 	- None is False
 
-1. [for 迴圈](http://ez2learn.com/index.php/python-tutorials/python-tutorials/172-for)
+註: 要判斷一個元素有沒有在list 裡面可以用`in`, 要判斷一個字有沒有在一個字串內, 也可以用`in`
+
+	Python 2.7.2+ (default, Oct  4 2011, 20:03:08)
+	[GCC 4.6.1] on linux2
+	Type "help", "copyright", "credits" or "license" for more information.
+	>>> a=range(1,5)
+	>>> 5 in a
+	False
+	>>> 4 in a
+	True
+	>>> a
+	[1, 2, 3, 4]
+	>>> '5' in a
+	False
+	>>> '4' in a
+	False
+	>>> '4' in '4string'
+	True
+
+
+- [for 迴圈](http://ez2learn.com/index.php/python-tutorials/python-tutorials/172-for)
 
 note: 在 python 裡的for 指的是foreach, 如果你要真正的for, 可以用下面的方法來類比
 
@@ -134,10 +154,10 @@ range 是一個function, 會產生一個[0,1,2,3,4] 的陣列, 細節請`pydoc r
 	# 4 5
 	# 5 6
 
-1. [while 迴圈](http://ez2learn.com/index.php/python-tutorials/python-tutorials/173-while)
-1. [字典](http://ez2learn.com/index.php/python-tutorials/python-tutorials/168-dictionary)
-1. [Dictionaries](http://docs.python.org/tutorial/datastructures.html#dictionaries)
-1. [Looping Techniques](http://docs.python.org/tutorial/datastructures.html#looping-techniques)
+- [while 迴圈](http://ez2learn.com/index.php/python-tutorials/python-tutorials/173-while)
+- [字典](http://ez2learn.com/index.php/python-tutorials/python-tutorials/168-dictionary)
+- [Dictionaries](http://docs.python.org/tutorial/datastructures.html#dictionaries)
+- [Looping Techniques](http://docs.python.org/tutorial/datastructures.html#looping-techniques)
 
 #### 選讀
 
