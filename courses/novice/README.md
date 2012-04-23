@@ -41,11 +41,11 @@ Python 的語法特性，大致上可以讓你"我手寫我口"。
 
 #### 請閱讀
 
-1. [Victor Python 介紹](http://python.ez2learn.com/intro.html)
-1. [Python 2.7 Tutorial - Using Interpreter](http://docs.python.org/tutorial/interpreter.html)
-1. [Victor Python 入門][1] 裡面的*註解*，*變數*，*輸入與輸出*，*字串*
-1. [Python 2.7 Tutorial - Strings](http://docs.python.org/tutorial/introduction.html#strings)
-1. [Victor - 瞭解Unicode](http://python.ez2learn.com/basic/unicode.html)
+- [Victor Python 介紹](http://python.ez2learn.com/intro.html)
+- [Python 2.7 Tutorial - Using Interpreter](http://docs.python.org/tutorial/interpreter.html)
+- [Victor Python 入門][1] 裡面的*註解*，*變數*，*輸入與輸出*，*字串*
+- [Python 2.7 Tutorial - Strings](http://docs.python.org/tutorial/introduction.html#strings)
+- [Victor - 瞭解Unicode](http://python.ez2learn.com/basic/unicode.html)
 
 #### 完成作業
 
@@ -59,6 +59,110 @@ Python 的語法特性，大致上可以讓你"我手寫我口"。
 - [All About Python and Unicode](http://boodebr.org/main/python/all-about-python-and-unicode)
 
 ### 第二週 (8小時)
+
+這一週開始後的作業會採用*測試先行*(Test-Driven)的方式來引導, 那何謂測試先行呢?
+其時就是你先把預期的結果寫出來，再想辦法把程式碼寫出。
+
+最簡單的撰寫test 方式是使用斷言(assertion)，
+等之後介紹過 function 會再介紹到其他更強大的測試工具。
+
+下面是個範例
+
+```
+Python 2.7.2+ (default, Oct  4 2011, 20:03:08)
+[GCC 4.6.1] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> answer = 1
+# assert 測試, 錯誤訊息
+>>> assert answer == 2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AssertionError
+```
+
+需要看懂上面在做什麼你需要讀完下面的 'Boolean Practice'
+
+#### 請閱讀
+
+- [數值運算](http://ez2learn.com/index.php/python-tutorials/python-tutorials/165-2009-02-11-13-09-18)
+- [串列](http://ez2learn.com/index.php/python-tutorials/python-tutorials/166-list)
+- [切片](http://ez2learn.com/index.php/python-tutorials/python-tutorials/167-slice)
+- [Tuple](http://caterpillar.onlyfun.net/Gossip/Python/TupleType.html)
+- [if 判斷句](http://ez2learn.com/index.php/python-tutorials/python-tutorials/171-if)
+- [Learn Python in Hard Way: Boolean Practice](http://learnpythonthehardway.org/book/ex28.html)
+- [More conditions](http://docs.python.org/tutorial/datastructures.html#more-on-conditions)
+- [break and continue Statements, and else Clauses on Loops](http://docs.python.org/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops)
+
+註: python 裡的 True 在比較時會變成數字的1, False 會變成數值0, None 則就是 None, 你可以想一下面的答案是什麼
+
+	- 1 == True
+	- 1 is True
+	- 0 == False
+	- 0 is False
+	- None == True
+	- None is True
+	- None == False
+	- None is False
+
+註: 要判斷一個元素有沒有在list 裡面可以用`in`, 要判斷一個字有沒有在一個字串內, 也可以用`in`
+
+	Python 2.7.2+ (default, Oct  4 2011, 20:03:08)
+	[GCC 4.6.1] on linux2
+	Type "help", "copyright", "credits" or "license" for more information.
+	>>> a=range(1,5)
+	>>> 5 in a
+	False
+	>>> 4 in a
+	True
+	>>> a
+	[1, 2, 3, 4]
+	>>> '5' in a
+	False
+	>>> '4' in a
+	False
+	>>> '4' in '4string'
+	True
+
+
+- [for 迴圈](http://ez2learn.com/index.php/python-tutorials/python-tutorials/172-for)
+
+note: 在 python 裡的for 指的是foreach, 如果你要真正的for, 可以用下面的方法來類比
+
+	for index in range(0,5):
+		print index
+
+	# 輸出為
+	# 0
+	# 1
+	# 2
+	# 3
+	# 4
+	# 5
+
+range 是一個function, 會產生一個[0,1,2,3,4] 的陣列, 細節請`pydoc range`
+
+而如果你想要取得元素的index, 可以使用`enumerate`,
+
+	mylist = [1,2,3,4,5,6]
+	for index, value in enumerate(mylist):
+		print index, value
+
+	# 下面是結果
+	# 0 1
+	# 1 2
+	# 2 3
+	# 3 4
+	# 4 5
+	# 5 6
+
+- [while 迴圈](http://ez2learn.com/index.php/python-tutorials/python-tutorials/173-while)
+- [字典](http://ez2learn.com/index.php/python-tutorials/python-tutorials/168-dictionary)
+- [Dictionaries](http://docs.python.org/tutorial/datastructures.html#dictionaries)
+- [Looping Techniques](http://docs.python.org/tutorial/datastructures.html#looping-techniques)
+
+#### 選讀
+
+- [軟體設計必讀經典(11)反覆測試與修正，讓錯誤消失](http://www.ithome.com.tw/itadm/article.php?c=47536)
 
 ### 第三週 (8小時)
 
