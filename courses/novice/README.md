@@ -87,6 +87,7 @@ AssertionError
 - [數值運算](http://ez2learn.com/index.php/python-tutorials/python-tutorials/165-2009-02-11-13-09-18)
 - [串列](http://ez2learn.com/index.php/python-tutorials/python-tutorials/166-list)
 - [切片](http://ez2learn.com/index.php/python-tutorials/python-tutorials/167-slice)
+- [Tuple](http://caterpillar.onlyfun.net/Gossip/Python/TupleType.html)
 - [if 判斷句](http://ez2learn.com/index.php/python-tutorials/python-tutorials/171-if)
 - [Learn Python in Hard Way: Boolean Practice](http://learnpythonthehardway.org/book/ex28.html)
 - [More conditions](http://docs.python.org/tutorial/datastructures.html#more-on-conditions)
