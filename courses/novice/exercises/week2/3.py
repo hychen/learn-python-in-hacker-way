@@ -1,5 +1,7 @@
 #!/usr/bin/env python
-# 將 data 轉換成一維陣列, 並通過assertion
-answer = None
-data = [ [1,2,3,4,5], [6,7,8,9,10], [11,12,13, [100,200, 300, 400, ['FOO'] ], 14,15] ]
-assert answer == [1,2,3,4,5,6,7,8, 9,10, 'A', 11,12,13, 100, 200, 300, 400, 'FOO', 14,15], answer
+# -*- coding: utf-8 -*-
+# data 是一個包含整數1到500的list, 寫一個程式把總和算出來
+# Note: 不可以使用`sum` function.
+answer = 0
+data = range(1,501)
+assert answer == 125250, answer
