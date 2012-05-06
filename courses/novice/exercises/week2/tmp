@@ -1,0 +1,28 @@
+for i in range(len(data)):
+    try:
+	len(data[i])
+	for j in range(len(data[i])):
+	    try:
+		len(data[i][j])
+		for k in range(len(data[i][j])):
+		    try:
+			len(data[i][j][k])
+			for l in range(len(data[i][j][k])):
+			    try:
+				len(data[i][j][k][l])
+				for m in range(len(data[i][j][k][l])):
+				    try:
+					len(data[i][j][k][l][m])
+					if it's a string:
+					    tmp.append
+				    except TypeError as error:
+					tmp.append(data[i][j][k][l][m])
+			    except TypeError as error:
+				tmp.append(ddata[i][j][k][l])
+		    except TypeError as error:
+			tmp.append(data[i][j][k])
+	    except TypeError as error:
+		tmp.append(data[i][j])
+    except TypeError as error:
+	tmp.append(data[i])
+
