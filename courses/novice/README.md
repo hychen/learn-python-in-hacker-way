@@ -180,6 +180,7 @@ range 是一個function, 會產生一個[0,1,2,3,4] 的陣列, 細節請`pydoc r
 Python 的 debugger 叫*PDB*，雖然沒有*GDB*那麼強大，但也堪用了。
 
 本週你需要學會pdb, 進階的 list, dict 運用還有定義 function.
+除此之外，會要熟撚`map`, `reduce`, filter`這三個非常有用的functional programming tool(在這個難度, 你可先不用懂什麼叫做functional programming)。
 
 在 Python 裡面, Funciton 是*First-Class Function*。以新手來說, 只要記得有下列特性
 
@@ -194,6 +195,7 @@ Python 的 debugger 叫*PDB*，雖然沒有*GDB*那麼強大，但也堪用了�
 - [Sets](http://docs.python.org/tutorial/datastructures.html#sets)
 - [Dict Comprehensions](http://www.python.org/dev/peps/pep-0274/)
 - [Define Function](http://docs.python.org/tutorial/controlflow.html#defining-functions)
+- [More on Define Funciton](http://docs.python.org/tutorial/controlflow.html#more-on-defining-functions)
 - [How to debug](http://hcliao.twbbs.org/signal-processing-using-python/how-to-debug)
 - [Debuuging in Python](http://pythonconquerstheuniverse.wordpress.com/category/python-debugger/)
 
