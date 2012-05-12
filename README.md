@@ -29,6 +29,7 @@
 下面這個是推薦的[Coding Style][6]，有時間再讀
 
 - [PEP 8 - Coding Style][7]
+- [字正腔圓說Python](http://yukuan.blogspot.com/2006/11/be-pythonic-python.html)
 
 ## 如何使用本教材
 
