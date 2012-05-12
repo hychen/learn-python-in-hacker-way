@@ -166,7 +166,47 @@ range 是一個function, 會產生一個[0,1,2,3,4] 的陣列, 細節請`pydoc r
 
 - [軟體設計必讀經典(11)反覆測試與修正，讓錯誤消失](http://www.ithome.com.tw/itadm/article.php?c=47536)
 
+#### 完成作業
+
+- `courses/novice/exercises/week2/1.py`
+- `courses/novice/exercises/week2/2.py`
+- `courses/novice/exercises/week2/3.py`
+- `courses/novice/exercises/week2/4.py`
+- `courses/novice/exercises/week2/5.py`
+
 ### 第三週 (8小時)
+
+工欲善其事, 必先力其器。如果不會用debugger，就好像人類不會用火一樣。
+Python 的 debugger 叫*PDB*，雖然沒有*GDB*那麼強大，但也堪用了。
+
+本週你需要學會pdb, 進階的 list, dict 運用還有定義 function.
+
+在 Python 裡面, Funciton 是*First-Class Function*。以新手來說, 只要記得有下列特性
+
+1. Function 可以被當成 Funciton 的參數傳遞
+1. Function 的回傳值可以是 Function
+1. Function 可以被指派到變數
+1. Function 可以不用指定名稱, 此類 Function 稱為*匿名函式*, 在 Python 裡使用`lambda`關鍵字定義
+
+#### 請閱讀
+
+- [More on List)(http://docs.python.org/tutorial/datastructures.html#more-on-lists)
+- [Sets](http://docs.python.org/tutorial/datastructures.html#sets)
+- [Dict Comprehensions](http://www.python.org/dev/peps/pep-0274/)
+- [Define Function](http://docs.python.org/tutorial/controlflow.html#defining-functions)
+- [How to debug](http://hcliao.twbbs.org/signal-processing-using-python/how-to-debug)
+- [Debuuging in Python](http://pythonconquerstheuniverse.wordpress.com/category/python-debugger/)
+
+#### 選讀
+
+- [Python Official Document - PDB](http://docs.python.org/library/pdb.html)
+- [First Class Function in Wikipidia](https://en.wikipedia.org/wiki/First-class_function)
+- [Closure in Wikipidia](http://en.wikipedia.org/wiki/Closure_(computer_science))
+- [Closure 簡介](http://wiki.python.org.tw/Python/Cookbook/Closure)
+
+#### 完成作業
+
+TBD
 
 ### 第四週 (8小時)
 
