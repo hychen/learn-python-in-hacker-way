@@ -41,6 +41,7 @@ Python 的語法特性，大致上可以讓你"我手寫我口"。
 
 #### 請閱讀
 
+- [電腦做什麼事- 與直譯器互動](http://pydoing.blogspot.com/2008/10/blog-post_04.html)
 - [Victor Python 介紹](http://python.ez2learn.com/intro.html)
 - [Python 2.7 Tutorial - Using Interpreter](http://docs.python.org/tutorial/interpreter.html)
 - [Victor Python 入門][1] 裡面的*註解*，*變數*，*輸入與輸出*，*字串*
@@ -84,6 +85,7 @@ AssertionError
 
 #### 請閱讀
 
+- [電腦做什麼事 - 真假世界](http://pydoing.blogspot.com/2008/10/blog-post_6123.html)
 - [數值運算](http://ez2learn.com/index.php/python-tutorials/python-tutorials/165-2009-02-11-13-09-18)
 - [串列](http://ez2learn.com/index.php/python-tutorials/python-tutorials/166-list)
 - [切片](http://ez2learn.com/index.php/python-tutorials/python-tutorials/167-slice)
