@@ -190,7 +190,7 @@ Python 的 debugger 叫*PDB*，雖然沒有*GDB*那麼強大，但也堪用了�
 
 #### 請閱讀
 
-- [More on List)(http://docs.python.org/tutorial/datastructures.html#more-on-lists)
+- [More on List](http://docs.python.org/tutorial/datastructures.html#more-on-lists)
 - [Sets](http://docs.python.org/tutorial/datastructures.html#sets)
 - [Dict Comprehensions](http://www.python.org/dev/peps/pep-0274/)
 - [Define Function](http://docs.python.org/tutorial/controlflow.html#defining-functions)
