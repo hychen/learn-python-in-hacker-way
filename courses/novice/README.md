@@ -189,6 +189,8 @@ Python 的 debugger 叫*PDB*，雖然沒有*GDB*那麼強大，但也堪用了�
 1. Function 可以被指派到變數
 1. Function 可以不用指定名稱, 此類 Function 稱為*匿名函式*, 在 Python 裡使用`lambda`關鍵字定義
 
+至於Closure在這個難度可以不用知道這是什麼.
+
 #### 請閱讀
 
 - [More on List](http://docs.python.org/tutorial/datastructures.html#more-on-lists)
