@@ -4,15 +4,16 @@
 
 我是 Hychen。
 
-因為有人想學 Python ，所以我就來教了。
+因為有人想學 Python ，所以我就來教了，這裡是教學上用到的教材。
 在這門課除了教你 Python ， 你還會學到一些軟體開發中會用到的工具，
 以及開放源碼/自由軟體社群的工作模式。
 
-本教材適合一人自學或是一人教多人使用(一個難度只能教一人)。
+本教材適合一人自學或是一人教多人使用。
 
 *聲明*
 
 1. 若有任何錯誤，歡迎自由 Patch/Fork。
+1. 網路上的連結總會失效，學生們需具備自行修復的能力。
 
 ## 目標
 
@@ -29,6 +30,7 @@
 下面這個是推薦的[Coding Style][6]，有時間再讀
 
 - [PEP 8 - Coding Style][7]
+- [字正腔圓說Python](http://yukuan.blogspot.com/2006/11/be-pythonic-python.html)
 
 ## 如何使用本教材
 
@@ -49,7 +51,7 @@
 課程講義依難度分為
 
 - 新手(Novice):
-	熟悉基本資料結構以及迴圈，內容在`courses/novice/README.md`
+	熟悉基本資料結構以及迴圈，以及撰寫 Function，內容在`courses/novice/README.md`
 - 學徒(Apprentice):
 	能使用Function, Class 來維護較大型的程式, 一些常用的函式庫，以及撰寫測試程式，內容在`courses/apprentice/README.md` (尚未完成)
 - 老手(Adept):
@@ -79,7 +81,7 @@ Python 2.7.2+ (default, Oct  4 2011, 20:03:08)
 1. `學徒`在 github 上 fork `老師`的專案。
 1. `學徒`依據課程大綱讀完講義上指定的閱讀項目，並且寫完指定的習題
 1. `學徒`把指定的作業commit後，push 進自己的專案
-1. `老師`Review`學徒的code，引導`學徒`思考寫出更好的code
+1. `老師`Review`學徒的code，引導`學徒`思考寫出更好的code, 老師可以用 github 的 gist 來貼source code.
 
 ## 作業繳交方式
 
