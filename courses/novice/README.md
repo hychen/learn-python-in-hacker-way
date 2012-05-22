@@ -214,7 +214,28 @@ TBD
 
 ### 第四週 (8小時)
 
+本週預計大約介紹Python的物件模型
+
+p.s 網路上沒找到適合新手閱讀的文章, 所以要花時間自己寫... TBD
+
+何謂物件導向
+萬物皆物件
+名稱只是物件的指謂
+
 ### 第五週 (8小時)
+
+Every Object is actually dict + functions
+unbound attributes v.s bound attributes
+Introduct Zen of Python, think pythonic
+basic info of module
+
+#### 請閱讀
+
+- [Introduce to the zen of Python](http://www.slideshare.net/doughellmann/an-introduction-to-the-zen-of-python)
+
+#### 選讀
+
+- [Be Pythonic: 字正腔圓說Python](http://yukuan.blogspot.com/2006/11/be-pythonic-python.html)
 
 [1]: https://en.wikipedia.org/wiki/Pseudocode
 [2]: http://ez2learn.com/index.php/python-tutorials/python-tutorials
