@@ -210,7 +210,12 @@ Python 的 debugger 叫*PDB*，雖然沒有*GDB*那麼強大，但也堪用了�
 
 #### 完成作業
 
-TBD
+- `courses/novice/exercises/week1/1.py`
+- `courses/novice/exercises/week1/2.py`
+- `courses/novice/exercises/week1/3.py `
+- `courses/novice/exercises/week1/4.py`
+- `courses/novice/exercises/week1/5.py`
+- `courses/novice/exercises/week1/6.py`
 
 ### 第四週 (8小時)
 
